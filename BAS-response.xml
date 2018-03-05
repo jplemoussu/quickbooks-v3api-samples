@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BASReport xmlns="http://schema.intuit.com/finance/v3/qbo">
+    <documentInfo>
+        <entriesType>Business Activity Statement-GST</entriesType>
+        <entriesComment>The Business Activity Statement (BAS) is a form submitted to the Australian Taxation Office by all businesses to report their taxation obligations, stating their income and how much GST (Goods and Services Tax of 10%) they collected. </entriesComment>
+        <periodCoveredStart>2017-01-01</periodCoveredStart>
+        <periodCoveredEnd>2017-05-30</periodCoveredEnd>
+        <creationDate>2017-05-29</creationDate>
+    </documentInfo>
+    <lineItems>
+        <lineItem>
+            <description>GST calculations</description>
+        </lineItem>
+        <lineItem>
+            <description>Total sales</description>
+            <box>G1</box>
+            <balance decimals="2" unitRef="A$">4755.00</balance>
+            <exceptionAmount decimals="2" unitRef="A$">0</exceptionAmount>
+            <openTransactions decimals="2" unitRef="A$">0</openTransactions>
+        </lineItem>
+        <lineItem>
+            <description>Does the amount shown at G1 include GST</description>
+            <box>Yes/No</box>
+        </lineItem>
+        <lineItem>
+            <description>Export sales</description>
+            <box>G2</box>
+            <amount decimals="2" unitRef="A$">3000.00</amount>
+            <exceptionAmount decimals="2" unitRef="A$">0</exceptionAmount>
+            <openTransactions decimals="2" unitRef="A$">0</openTransactions>
+            <totalLineamount decimals="2" unitRef="A$">3000.00</totalLineamount>
+        </lineItem>
+        <lineItem>
+            <description>Other GST-Free sales</description>
+            <box>G3</box>
+            <amount decimals="2" unitRef="A$">0</amount>
+            <exceptionAmount decimals="2" unitRef="A$">0</exceptionAmount>
+            <openTransactions decimals="2" unitRef="A$">0</openTransactions>
+            <totalLineamount decimals="2" unitRef="A$">0</totalLineamount>
+        </lineItem>
+        <lineItem>
+            <description>Input taxed sales</description>
+            <box>G4</box>
+            <amount decimals="2" unitRef="A$">0</amount>
+            <exceptionAmount decimals="2" unitRef="A$">0</exceptionAmount>
+            <openTransactions decimals="2" unitRef="A$">0</openTransactions>
+            <totalLineamount decimals="2" unitRef="A$">0</totalLineamount>
+        </lineItem>
+        <lineItem>
+            <description>Net amount for G10</description>
+            <box>Net on G10</box>
+            <balance decimals="2" unitRef="A$">0</balance>
+            <exceptionAmount decimals="2" unitRef="A$">0</exceptionAmount>
+            <openTransactions decimals="2" unitRef="A$">0</openTransactions>
+        </lineItem>
+        <lineItem>
+            <description>Capital purchases without GST in the price</description>
+            <box>C GSTFree</box>
+            <balance decimals="2" unitRef="A$">0</balance>
+            <exceptionAmount decimals="2" unitRef="A$">0</exceptionAmount>
+            <openTransactions decimals="2" unitRef="A$">0</openTransactions>
+        </lineItem>
+        <lineItem>
+            <description>Tax amount for G10</description>
+            <box>Tax on G10</box>
+            <amount decimals="2" unitRef="A$">0</amount>
+            <exceptionAmount decimals="2" unitRef="A$">0</exceptionAmount>
+            <openTransactions decimals="2" unitRef="A$">0</openTransactions>
+            <totalLineamount decimals="2" unitRef="A$">0</totalLineamount>
+        </lineItem>
+        <lineItem>
+            <description>Capital purchases (including any GST)</description>
+            <box>G10</box>
+            <balance decimals="2" unitRef="A$">0</balance>
+            <exceptionAmount decimals="2" unitRef="A$">0</exceptionAmount>
+            <openTransactions decimals="2" unitRef="A$">0</openTransactions>
+        </lineItem>
+        <lineItem>
+            <description>Purchases for making input taxed sales</description>
+            <box>Net PITC</box>
+            <balance decimals="2" unitRef="A$">0</balance>
+            <exceptionAmount decimals="2" unitRef="A$">0</exceptionAmount>
+            <openTransactions decimals="2" unitRef="A$">0</openTransactions>
+        </lineItem>
+        <lineItem>
+            <description>Non-capital purchases without GST in the price</description>
+            <box>NC GSTFree</box>
+            <balance decimals="2" unitRef="A$">20.00</balance>
+            <exceptionAmount decimals="2" unitRef="A$">0</exceptionAmount>
+            <openTransactions decimals="2" unitRef="A$">0</openTransactions>
+        </lineItem>
+        <lineItem>
+            <description>Net amount for G11</description>
+            <box>Net on G11</box>
+            <balance decimals="2" unitRef="A$">350.00</balance>
+            <exceptionAmount decimals="2" unitRef="A$">0</exceptionAmount>
+            <openTransactions decimals="2" unitRef="A$">0</openTransactions>
+        </lineItem>
+        <lineItem>
+            <description>Tax amount for G11</description>
+            <box>Tax on G11</box>
+            <amount decimals="2" unitRef="A$">35.00</amount>
+            <exceptionAmount decimals="2" unitRef="A$">0</exceptionAmount>
+            <openTransactions decimals="2" unitRef="A$">0</openTransactions>
+            <totalLineamount decimals="2" unitRef="A$">35.00</totalLineamount>
+        </lineItem>
+        <lineItem>
+            <description>Non-capital purchases (including any GST)</description>
+            <box>G11</box>
+            <balance decimals="2" unitRef="A$">405.00</balance>
+            <exceptionAmount decimals="2" unitRef="A$">0</exceptionAmount>
+            <openTransactions decimals="2" unitRef="A$">0</openTransactions>
+        </lineItem>
+        <lineItem>
+            <description>PAYG tax withheld</description>
+        </lineItem>
+        <lineItem>
+            <description>Total salary, wages and other payments</description>
+            <box>W1</box>
+            <amount decimals="2" unitRef="A$">0</amount>
+            <exceptionAmount decimals="2" unitRef="A$">0</exceptionAmount>
+            <openTransactions decimals="2" unitRef="A$">0</openTransactions>
+            <totalLineamount decimals="2" unitRef="A$">0</totalLineamount>
+        </lineItem>
+        <lineItem>
+            <description>Amount withheld from payments shown at W1</description>
+            <box>W2</box>
+            <amount decimals="2" unitRef="A$">0</amount>
+            <exceptionAmount decimals="2" unitRef="A$">0</exceptionAmount>
+            <openTransactions decimals="2" unitRef="A$">0</openTransactions>
+            <totalLineamount decimals="2" unitRef="A$">0</totalLineamount>
+        </lineItem>
+        <lineItem>
+            <description>Amount withheld where no ABN is quoted</description>
+            <box>W4</box>
+        </lineItem>
+        <lineItem>
+            <description>Other amounts withheld (excluding any amount shown at W2 or W4)</description>
+            <box>W3</box>
+        </lineItem>
+        <lineItem>
+            <description>Total amounts withheld (W2 + W4 + W3)</description>
+            <box>W5</box>
+        </lineItem>
+        <lineItem>
+            <description>Amounts you owe the tax office</description>
+        </lineItem>
+        <lineItem>
+            <description>GST on sales</description>
+            <box>1A</box>
+            <balance decimals="2" unitRef="A$">159.00</balance>
+        </lineItem>
+        <lineItem>
+            <description>PAYG tax withheld</description>
+            <box>4</box>
+            <amount decimals="2" unitRef="A$">0</amount>
+            <exceptionAmount decimals="2" unitRef="A$">0</exceptionAmount>
+            <openTransactions decimals="2" unitRef="A$">0</openTransactions>
+            <totalLineamount decimals="2" unitRef="A$">0</totalLineamount>
+        </lineItem>
+        <lineItem>
+            <description>1A + 4</description>
+            <box>8A</box>
+            <balance decimals="2" unitRef="A$">159.00</balance>
+        </lineItem>
+        <lineItem>
+            <description>Amounts the tax office owes you</description>
+        </lineItem>
+        <lineItem>
+            <description>GST on purchases</description>
+            <box>1B</box>
+            <balance decimals="2" unitRef="A$">46.00</balance>
+        </lineItem>
+        <lineItem>
+            <description>1B</description>
+            <box>8B</box>
+            <balance decimals="2" unitRef="A$">46.00</balance>
+        </lineItem>
+        <lineItem>
+            <description>Refund or payment due</description>
+            <box>9</box>
+            <balance decimals="2" unitRef="A$">113.00</balance>
+        </lineItem>
+        <lineItem>
+            <description>Transfer amount (Liability -&gt; Suspense)</description>
+            <box>G22</box>
+            <balance decimals="2" unitRef="A$">113.00</balance>
+        </lineItem>
+    </lineItems>
+</BASReport>
