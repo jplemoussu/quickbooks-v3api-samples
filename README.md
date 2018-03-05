@@ -1,3 +1,3 @@
 # Sample QuickBooks API requests and responses 
 
-From production environment with dummy Australian data 
+All requests taken from production APIs with dummy Australian data 
